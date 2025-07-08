@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactme_section{
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #13171C;
+    color: #FFFFFF;    
+         
+}
+
+@media (min-width: 1100px) {
+    .contactme_section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;        
+    }
+}
+
+@media (min-width: 1100px) {
+    .contactme_name-mail{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.contactme_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactme_title{
+    font-size: 42px;
+    font-weight: 700; 
+    
+}
+
+@media (min-width: 1100px) {
+    .contactme_title{
+        margin-top: -300px;
+        font-size: 64px;
+        font-style: bold;
+        font-weight: 700;
+    }
+}
+
+.contactme_name-mail{
+    gap: 20px;
+    display: flex;  
+    flex-direction: column;    
+}
+
+@media (min-width: 1100px) {
+    .contactme_name-mail{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.contactme_name-input,
+.contactme_mail-input{
+    margin-top: 10px;
+    width: 313px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:  #393E4680;
+    color: #FFFFFF;
+}
+
+.contactme_textarea{
+    margin-top: 10px;
+    width: 313px;
+    height: 300px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:  #393E4680;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1100px) {
+    .contactme_textarea{
+        width: 646px;
+    }
+}
+
+.contactme_button{    
+   background-color: #00ADB5;
+   border-radius: 30px;
+   border: none; 
+   width: 312px; 
+   height: 55px;
+   font-size: 17px;
+   font-weight: 700;
+   gap: 10px;
+}
+
+@media (min-width: 1100px) {
+    .contactme_button{
+        width: 231px;
+    }
+}

@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*ESTILO DE LA SECCION WELLCOME*/
+
+.wellcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 155px;
+    width: 100%;
+    height: 789px;
+    background-color: #13171C;
+    
+   
+}
+
+@media (min-width: 768px) {
+    .wellcome-section{        
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 903px;
+    }
+}
+
+.wellcome_message{
+    display: flex;
+    flex-direction: column;
+    text-align: center;        
+    width: 288px;
+    height: 200px;    
+    color: rgb(30, 150, 150);
+    margin-top: -40px;
+       
+}
+
+@media (min-width: 768px) {
+    .wellcome_message{
+        align-items: center;
+        justify-content: center;        
+    }
+}
+
+.wellcome_greeting{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    height: 80px;
+    margin-bottom: -50px;
+         
+}
+
+.wellcome_name{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(6, 182, 182);    
+    max-width: 288px;
+    
+}
+
+@media (min-width: 768px) {
+    .wellcome_greeting,
+    .wellcome_name{
+        font-size: 75px;
+        min-width: 586px;
+        margin-top: 66px;
+        text-align: left;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1100px) {
+    .wellcome_greeting,
+    .wellcome_name{
+        font-size: 96px;
+        min-width: 586px;        
+    }
+}
+
+.wellcome_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 80px;   
+}
+
+.main-image{
+    justify-content: center;
+    width: 219px;
+    height: 211px;
+}
+
+@media (min-width: 768px) {
+    .main-image{
+        width: 293px;
+        height: 280px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .main-image{
+        width: 353px;
+        height: 340px;
+    }
+}
+
+.shadow{
+    display: none;
+    width: 348px;
+    height: 24px;
+    margin-left: -90px;
+    margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+    .shadow{
+        display: block;
+    }
+}
+
+/*ESTILO DE LA SECCION ABOUT ME*/
+.aboutme-section{
+    width: 100%;
+    min-height: 789px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;    
+    background-color: #192130;    
+}
+
+@media (min-width: 768px) {
+    .aboutme-section{        
+        height: 903px;
+    }
+}
+
+.aboutme_card {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    margin: auto 125px;  
+    text-align: center; 
+    gap: 20px; 
+    
+}
+
+@media (min-width: 975px) {
+    .aboutme_card{ 
+        width: auto;
+        height: 415px;
+        display: flex;       
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 55px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (min-width: 975px) {
+    .aboutme_info{
+        max-height: 280px;
+    }
+    
+}
+
+@media (min-width: 1100px) {
+    .aboutme_info{
+        max-height: 415px;
+    }
+    
+}
+
+.aboutme_title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (min-width: 1100px) {
+    .aboutme_title{
+        font-size: 60px;        
+    }
+}
+
+.aboutme_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #EEEEEEBF;
+}
+
+@media (min-width: 1100px) {
+    .aboutme_text{
+        font-size: 26px;
+        max-height: 415px;
+
+    }
+}
+
+.aboutme_title,
+.aboutme_text{
+    text-align: left;
+}
+
+.aboutme_image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.aboutMe_image {    
+    width: 295px;
+    height: 241px;   
+}
+
+@media (min-width: 1100px) {
+    .aboutMe_image{
+        width: 490px;
+        height: 373px;        
+    }
+}
+
+
+
+

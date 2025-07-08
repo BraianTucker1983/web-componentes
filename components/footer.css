@@ -1,0 +1,72 @@
+@media (min-width: 768px) {
+    .footer{
+        border-top: 2px solid #232c36;
+    }    
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 534px;
+    background-color: #0F1113;    
+    text-align: center;    
+}
+
+
+@media (min-width: 768px) {
+    .footer_container{
+        height: 600px;
+        background-color: #13171C;        
+    }
+}
+
+.footer_logo{
+    width: 75px;
+    height: 36px;
+}
+
+.footer_links{
+    width: 139px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_home,
+.footer_services,
+.footer_contact{ 
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none; 
+    color: white;    
+   
+}
+
+
+.footer_social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 192px;
+    height: 48px;
+}
+
+.footer_logo-linkedin,
+.footer_logo-github,
+.footer_logo-twitter{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer_text{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
