@@ -12,14 +12,14 @@ function headerComponent(el) {
       </div>      
       <div class="header__menu-list" style="display: none;">
           <div class="header__menu-close">X</div>
-          <a class="menu-list" href="../portfolio.html">Portfolio</a>
-          <a class="menu-list" href="../servicios.html">Servicio</a>
-          <a class="menu-list" href="../contacto.html">Contacto</a>
+          <a class="menu-list" href="portfolio.html">Portfolio</a>
+          <a class="menu-list" href="servicios.html">Servicio</a>
+          <a class="menu-list" href="contacto.html">Contacto</a>
       </div>
       <div class="header__menu-links">          
-          <a class="menu-list" href="../portfolio.html">Portfolio</a>
-          <a class="menu-list" href="../servicios.html">Servicio</a>
-          <a class="menu-list" href="../contacto.html">Contacto</a>
+          <a class="menu-list" href="portfolio.html">Portfolio</a>
+          <a class="menu-list" href="servicios.html">Servicio</a>
+          <a class="menu-list" href="contacto.html">Contacto</a>
       </div>
     </header>`;
 
