@@ -7,7 +7,6 @@ function footerComponent(el) {
       <a href="index.html" class="footer_home"><i class="fas fa-home">Home</i></a>
       <a href="servicios.html" class="footer_services"><i class="fas fa-user"></i>Servicios</a>
       <a href="contacto.html" class="footer_contact"><i class="fas fa-phone"></i>Contacto</a>
-Contacto</a>
   </div>
   <div class="footer_social-links">
     <img src="logo-linkedin.jpg" class="footer_logo-linkedin">
